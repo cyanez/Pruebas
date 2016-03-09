@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Titulo de la page</title>
+    <style>
+        body {background-color: lightgray;}        
+        h1 {color: blue;}
+        p {color: green;}
+        #back {position: relative;
+             overflow:hidden;
+              z-index: 99;
+             }
+        #window {
+            background-color: lightgreen;
+            position: relative;
+           z-index: 100;
+        }
+    </style>
+</head>
+<body>
+ <div id="back">    
+     <p>Fierro wey </p>
+    <div id="window">
+      <h1>Mi primer pagina en html5</h1>
+      <p> Primer parrafo fierro pariente </p>
+    </div>
+    <div style="position:relative; overflow:hidden; height:800px; z-index:1; background-color:red;">
+    <ul style="position:relative; overflow:hidden; height:800px; z-index:2; background-color:blue;">
+    <br/>
+        <li>
+            <div style="height:500px; background-color:white; position:relative; z-index:3;">
+            This is div
+            </div>
+        </li>
+    </ul>
+</div>
+</div>
+</body>
+</html>
